@@ -12,6 +12,7 @@ public class RectOverlay extends GraphicOverlay.Graphic {
     private Paint mRectPaint;
     private GraphicOverlay graphicOverlay;
     private Rect rect;
+    // just for check
 
 
     public RectOverlay(GraphicOverlay graphicOverlay, Rect rect) {
