@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/abc">
+
+    </com.wonderkiln.camerakit.CameraView>
+
+    <com.snippy.snippyface.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/abc" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abc"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="1dp"
+
+        >
+        <Button
+            android:id="@+id/face_detection_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@color/design_default_color_background"
+            android:text="Face Detection" />
+        <Button
+            android:id="@+id/change_facing"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="1dp"
+            android:text="Change Facing" />
+
+    </LinearLayout>
+
+</RelativeLayout>

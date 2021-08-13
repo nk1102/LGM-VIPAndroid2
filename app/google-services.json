@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493932068786",
+    "project_id": "snippyface-6a487",
+    "storage_bucket": "snippyface-6a487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493932068786:android:6e4e9b42bb714f03162eab",
+        "android_client_info": {
+          "package_name": "com.snippy.snippyface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493932068786-s6svgsv7e4qu8jht4l66obepmu34d6hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNvHg3LAmtcXbEIikXdx9Qdog98AECsbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493932068786-s6svgsv7e4qu8jht4l66obepmu34d6hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
